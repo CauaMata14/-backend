@@ -1,5 +1,6 @@
 console.log("API está on!")
-console.log("API está nada ook!")
+console.log("API está nada oook!")
+
 
 
 
