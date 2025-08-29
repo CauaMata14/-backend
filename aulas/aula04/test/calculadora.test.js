@@ -1,5 +1,6 @@
 const calculadora = require("../src/calculadora.js");
 
+describe("testa as funções da calculadora.js", function(){
 test("2 + 2 = 4?", function(){
     expect(calculadora.soma(2, 2)).toBe(4);
 });
@@ -22,4 +23,6 @@ expect(() => calculadora.divisao(2, 0)).toThrow("dividiu por 0!");
 
 
 
-})
+});
+});
+
